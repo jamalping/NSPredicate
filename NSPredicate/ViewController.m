@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // (1)对NSArray进行过滤
     [self aaaaa];
-    // (2)判断字符串首字母是否为字母
+    // (2)判断字符串是否全为字母:
     [self bbbbb];
     // (3)字符串替换：
     [self ccccc];
@@ -34,9 +34,9 @@
     NSLog(@"%@",[array filteredArrayUsingPredicate:pred]);
 }
 
-// (2)判断字符串首字母是否为字母:
+// (2)判断字符串是否全为字母:
 - (void)bbbbb {
-    NSString *aString = @"sdsgfhgjh,bm";
+    NSString *aString = @"sdsgfhgjhbm";
     NSString *regex = @"[A-Za-z]+";
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     if ([predicate evaluateWithObject:aString]) {
