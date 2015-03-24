@@ -14,6 +14,7 @@
 		735F43871AC1146300AB5402 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735F43861AC1146300AB5402 /* Images.xcassets */; };
 		735F438A1AC1146300AB5402 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735F43881AC1146300AB5402 /* LaunchScreen.xib */; };
 		735F43961AC1146300AB5402 /* NSPredicateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F43951AC1146300AB5402 /* NSPredicateTests.m */; };
+		735F43A11AC114AB00AB5402 /* JamalPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F43A01AC114AB00AB5402 /* JamalPredicate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		735F438F1AC1146300AB5402 /* NSPredicateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSPredicateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735F43941AC1146300AB5402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		735F43951AC1146300AB5402 /* NSPredicateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSPredicateTests.m; sourceTree = "<group>"; };
+		735F439F1AC114AB00AB5402 /* JamalPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JamalPredicate.h; sourceTree = "<group>"; };
+		735F43A01AC114AB00AB5402 /* JamalPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JamalPredicate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				735F437E1AC1146300AB5402 /* AppDelegate.m */,
 				735F43801AC1146300AB5402 /* ViewController.h */,
 				735F43811AC1146300AB5402 /* ViewController.m */,
+				735F439F1AC114AB00AB5402 /* JamalPredicate.h */,
+				735F43A01AC114AB00AB5402 /* JamalPredicate.m */,
 				735F43831AC1146300AB5402 /* Main.storyboard */,
 				735F43861AC1146300AB5402 /* Images.xcassets */,
 				735F43881AC1146300AB5402 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				735F43821AC1146300AB5402 /* ViewController.m in Sources */,
+				735F43A11AC114AB00AB5402 /* JamalPredicate.m in Sources */,
 				735F437F1AC1146300AB5402 /* AppDelegate.m in Sources */,
 				735F437C1AC1146300AB5402 /* main.m in Sources */,
 			);
